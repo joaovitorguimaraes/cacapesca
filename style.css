@@ -7,7 +7,6 @@
     --cor-destaque: #2BDEFD;
     --cor-texto: #D7F9FF;
   }
-
   body {
     background-color: var(--cor-fundo);
     color: var(--cor-texto);
@@ -16,7 +15,8 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-}
+  }
+
   .caixa-principal{
     background-color: var(--cor-principal);
     width: 90%;
@@ -40,6 +40,7 @@
 
 button:hover {
     background-color: var(--cor-destaque);
+    color: var(--cor-secundaria);
     color: var(--cor-principal);
 }
 
@@ -56,4 +57,3 @@ button:hover {
 .caixa-resultado.mostrar{
     display: block;
 }
-  
