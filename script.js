@@ -97,7 +97,7 @@ const perguntas = [
 
 functionrespostaSelecionada(opcaoSelecionada) 
     const afirmacoes = opcaoSelecionada.afirmacao;
-    const afirmacoes = aleatorio(opcaoSelecionada.afirmacao);
+    const afirmaçoes = aleatorio(opcaoSelecionada.afirmacao);
     historia += afirmacoes + "";
     atual++;
     mostraPergunta();
